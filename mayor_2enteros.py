@@ -11,13 +11,12 @@ y = int(input("digite el valor de y: "))
 #processing
 if x == y:
     print("los numeros son iguales...")
-    mayor = x
+    
 else:
     if x > y:
         mayor = x
     else:
         mayor = y        
-
-#output
-print("numero mayor: " + str(x) + " y " + str(y) + " es " + str(mayor))
+        #output
+    print("numero mayor: " + str(x) + " y " + str(y) + " es " + str(mayor))
 
